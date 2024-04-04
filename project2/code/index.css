@@ -1,0 +1,57 @@
+body {
+	background-color: #303449;
+}
+
+.Title {
+	font-size: 6rem;
+	color: azure;
+	text-align: center;
+	animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		text-shadow: -2px -2px 0 #2943d1, 2px 2px 0 #f00;
+	}
+
+	25% {
+		text-shadow: 2px 2px 0 #2943d1, -2px -2px 0 #f00;
+	}
+
+	50% {
+		text-shadow: 2px -2px 0 #2943d1, -2px 2px 0 #f00;
+	}
+
+	75% {
+		text-shadow: -2px 2px 0 #2943d1, 2px -2px 0 #f00;
+	}
+
+	100% {
+		text-shadow: 2px 2px 0 #2943d1, -2px -2px 0 #f00;
+	}
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 150px;
+	border-radius: 15%;
+	background-color: #444966;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.button img {
+	width: 100%;
+	height: auto;
+    padding: 20%, 20%, 20%, 20%;
+}

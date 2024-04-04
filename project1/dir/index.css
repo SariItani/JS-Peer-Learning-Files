@@ -1,0 +1,33 @@
+body {
+	background-color: #393e46;
+}
+
+.title {
+	margin: auto;
+	width: 50%;
+	font-family: "Lobster", cursive;
+	font-size: 8rem;
+	color: #4ecca3;
+	padding-bottom: 0vh;
+}
+
+p {
+	text-align: center;
+	font-size: 2rem;
+	font-family: "Indie Flower", cursive;
+	color: #4ecca3;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2h;
+}
+
+.column {
+	text-align: center;
+	width: 15%;
+	height: auto;
+	margin: 0 120px;
+}
